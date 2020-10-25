@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="my-cart.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Cart_Shopping      </title>
+  </head>
+  <body>
+    <!-- <div class="container-fluid fixed-top header"> -->
+    <div class="strip fixed-top"></div>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+                <div class="parent">
+                  <div class="float-left pl-5" >
+                    <ul class="menu">
+                      <li class="menu">
+                        <a class=" logo menu" href="#">Learnweel</a>
+                      </li>
+                    </ul>
+                    </div> <!--.left-->
+                    <!-- Toggler Button     -->
+                    <div class="togbtn">
+                      <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
+                    
+                    <!-- .togbtn  -->
+                    <!--.Right-->
+                    <div class=" float-right collapse navbar-collapse"  id="navbarSupportedContent" >
+                      <ul class="menu navbar-nav mr-auto  mt-2 mt-lg-0  ">
+                        <li class="menu" >
+                          <a href="#" class=" menu">
+                            Store
+                          </a>
+                        </li>
+                        <li class="menu">
+                          <a href="#"  class="menu">
+                            About Us
+                          </a>
+                        </li>
+                        <li class="menu">
+                          <a href="#" class="menu">
+                            SignUp
+                          </a>
+                        </li>
+                        <li class="menu ">
+                          <a href="#"  class="nav-btn">
+                            <button type="button" class="login-btn ">
+                            Login
+                            </button>
+                          </a>
+                        </li>
+                      </ul>
+                      </div><!--.collapse-->
+                      </div><!-- .parent-->
+    </nav><!--.nav-->
+       
+
+
+
+ <!-- ============================= navbar end here======================================-->
+
+
+
+<!--==============================Progress Bar-Start ==========================================-->
+   
+
+
+
+      <div class=" container section">
+              <div class="form-progress">
+                <!-- on click submit button  vaule of attribute in progress tag first goes to 33 then 66 and at final 99
+                this makes the progress bar green from one dot to another   -->
+
+              <progress class="form-progress-bar" min="0" max="100" value="0" step="33" aria-labelledby="form-progress-completion"></progress>
+
+              <div class="form-progress-indicator one active"><span class="progress-value"><a href="#">Cart</a></span></div>
+
+              <div class="form-progress-indicator two  "><span class="progress-value"><a href="./guest.html">Billing </a></span></div>
+
+              <div class="form-progress-indicator three "><span class="progress-value"><a href="#"> Payment</a></span></div>
+
+              <!--   <div class="form-progress-indicator four  "><span class="progress-value">Succesful</span></div> -->
+              
+              <!-- <p id="form-progress-completion" class="js-form-progress-completion sr-only" aria-live="polite">0% complete</p>-->
+                </div> 
+        </div>
+
+  <!--==============================Progress Bar-End ==========================================-->
+   
+
+
+
+ <!--===================================Main-Division===========================================-->
+  
+
+
+
+
+
+         <div class="container main-div float-none">
+    
+
+
+    <!--===================================Left-Division===========================================-->
+            
+
+
+            <div class="float-lef w-75 pl-1 pt-4 ">
+              <!-- <span> Cart </span> -->
+              <div class="container  product-main-div position-absolute">
+                <div class="float-left ">
+                  <img src="img/book1.png" alt="" class="product-img mr-2">
+                  <div class="product-price-box  pl-3"> ₹00.0 </div>
+                  </div><!-- .float-left -->
+                  
+                  <div class="font-weight-bold ">Harry Potter and Fantastic Beasts
+                    <!-- <span class="smmry-font grey-color">by J. K. Rowling. </span> -->
+                  </div >
+                  <div class="smmry-font grey-color">
+                    <span> by J. K. Rowling. </span>
+                  </div >
+                  
+                  <div class="smmry-font grey-color"> <span>In Stock </span> </div>
+                  <div class="smmry-font grey-color">
+                    <button class=" btn qnty-btn " >
+                    <span>  Qty : </span>
+                    <select name="qty" class="qnty-select" id="qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
+                    </button>
+                    <span class="smmry-font  delete-btn">
+                          <!-- Delete -->
+                          <svg viewBox="0 0 512 512" class="trash-icon" >
+                                <g>
+                                <path  d="M180.066,413.377c-8.69,0-15.738-7.047-15.738-15.738V296.918c0-8.69,7.047-15.738,15.738-15.738
+                                s15.738,7.047,15.738,15.738v100.721C195.803,406.329,188.756,413.377,180.066,413.377z"/>
+                                <path  d="M256,413.377c-8.69,0-15.738-7.047-15.738-15.738V296.918c0-8.69,7.047-15.738,15.738-15.738
+                                  c8.69,0,15.738,7.047,15.738,15.738v100.721C271.738,406.329,264.69,413.377,256,413.377z"/>
+                                  <path  d="M331.934,413.377c-8.69,0-15.738-7.047-15.738-15.738V296.918c0-8.69,7.047-15.738,15.738-15.738
+                                    s15.738,7.047,15.738,15.738v100.721C347.672,406.329,340.625,413.377,331.934,413.377z"/>
+                                    <path  d="M395.935,73.706c-8.69,0-15.738,7.047-15.738,15.738s7.047,15.738,15.738,15.738
+                                    c18.295,0,33.18,14.885,33.18,33.18v37.64H407.08H104.92H82.886v-37.64c0-18.295,14.885-33.18,33.18-33.18h163.541
+                                    c8.69,0,15.738-7.047,15.738-15.738s-7.047-15.738-15.738-15.738h-92.852v-42.23h138.492v57.968c0,8.69,7.047,15.738,15.738,15.738
+                                    s15.738-7.047,15.738-15.738V15.738c0-8.69-7.047-15.738-15.738-15.738H171.017c-8.69,0-15.738,7.047-15.738,15.738v57.968h-39.214
+                                    c-35.651,0-64.655,29.005-64.655,64.655v53.377c0,8.69,7.047,15.738,15.738,15.738h22.034v288.786
+                                    c0,8.69,7.047,15.738,15.738,15.738h302.16c8.69,0,15.738-7.047,15.738-15.738V207.476h22.034c8.69,0,15.738-7.047,15.738-15.738
+                                    v-53.377C460.59,102.71,431.585,73.706,395.935,73.706z M391.342,480.525H120.658V207.476h270.685V480.525z"/>
+                                    </g>
+                                    <g>
+                                    </g>
+                          </svg>
+                                </span>
+
+                          </div>
+                          </div> <!-- .container-->
+
+
+
+
+  <!--======================================= .Second-product=======================================-->
+                          <div class="container second-product  product-main-div position-absolute">
+                            <div class="float-left ">
+                              <img src="img/book3.jpg" alt="" class="product-img mr-2" >
+                              <div class="product-price-box  pl-3"> ₹00.0 </div>
+                              </div><!-- .float-left -->
+                              
+                              <div class="font-weight-bold "> Harry Potter and the Philosopher's Stone
+                                <!-- <span class="smmry-font grey-color">by Dan Johnson </span> -->
+                              </div >
+                              <div class=" smmry-font grey-color">
+                                <span class="">by Dan Johnson </span>
+                              </div >
+                              
+                              <div class="smmry-font grey-color">
+                                <span>In Stock </span>
+                              </div>
+                              <div class="smmry-font grey-color">
+                                <button class=" btn qnty-btn " >
+                                <span>  Qty : </span>
+                                <select name="qty" class="qnty-select" id="qty">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                </select>
+                                </button>
+                                <span class="smmry-font  delete-btn">
+                                  <svg viewBox="0 0 512 512" class="trash-icon" >
+                                        <g>
+                                          <path  d="M180.066,413.377c-8.69,0-15.738-7.047-15.738-15.738V296.918c0-8.69,7.047-15.738,15.738-15.738
+                                            s15.738,7.047,15.738,15.738v100.721C195.803,406.329,188.756,413.377,180.066,413.377z"/>
+                                            <path  d="M256,413.377c-8.69,0-15.738-7.047-15.738-15.738V296.918c0-8.69,7.047-15.738,15.738-15.738
+                                              c8.69,0,15.738,7.047,15.738,15.738v100.721C271.738,406.329,264.69,413.377,256,413.377z"/>
+                                              <path  d="M331.934,413.377c-8.69,0-15.738-7.047-15.738-15.738V296.918c0-8.69,7.047-15.738,15.738-15.738
+                                            s15.738,7.047,15.738,15.738v100.721C347.672,406.329,340.625,413.377,331.934,413.377z"/>
+                                            <path  d="M395.935,73.706c-8.69,0-15.738,7.047-15.738,15.738s7.047,15.738,15.738,15.738
+                                              c18.295,0,33.18,14.885,33.18,33.18v37.64H407.08H104.92H82.886v-37.64c0-18.295,14.885-33.18,33.18-33.18h163.541
+                                              c8.69,0,15.738-7.047,15.738-15.738s-7.047-15.738-15.738-15.738h-92.852v-42.23h138.492v57.968c0,8.69,7.047,15.738,15.738,15.738
+                                              s15.738-7.047,15.738-15.738V15.738c0-8.69-7.047-15.738-15.738-15.738H171.017c-8.69,0-15.738,7.047-15.738,15.738v57.968h-39.214
+                                              c-35.651,0-64.655,29.005-64.655,64.655v53.377c0,8.69,7.047,15.738,15.738,15.738h22.034v288.786
+                                              c0,8.69,7.047,15.738,15.738,15.738h302.16c8.69,0,15.738-7.047,15.738-15.738V207.476h22.034c8.69,0,15.738-7.047,15.738-15.738
+                                              v-53.377C460.59,102.71,431.585,73.706,395.935,73.706z M391.342,480.525H120.658V207.476h270.685V480.525z"/>
+                                              </g>
+                                              <g>
+                                              </g>
+                                  </svg>
+                                        </span>
+                                      </div>
+                                      </div>  <!-- .container-->
+                                      
+<!--======================================= .third-product=======================================-->
+
+
+
+
+                                      <!-- <div class="container third-product  product-main-div position-absolute">
+                                        <div class="float-left ">
+                                          <img src="img/book2.jpg" alt="" class="product-img mr-2">
+                                          <div class="product-price-box  pl-3"> ₹00.0 </div>
+                                        </div>
+                                        
+                                        <div class="font-weight-bold ">The Alchemist <span class="smmry-font grey-color">by Paulo Coelho </span>
+                                      </div >
+                                      
+                                      <div class="smmry-font grey-color"> <span>In Stock </span> </div>
+                                      <div class="">  <span><button class=" btn qnty-btn " >Qty: 1</button>   </span> <span class="smmry-font  delete-btn"> Delete </span></div>
+                                      </div>  --><!-- .container-->
+                                      
+                                      </div><!-- .Main-Float-Left -->
+<!---================================Right-Division========================================================--->
+      <div class="float-Right checkout-div pl-5 ml-5">
+        <div class="container float-right smry-main-div  ">
+          <div class="checkout-smmry">Summary (2)</div>
+          <div>
+            <span class=" smmry-font">Subtotal</span>
+            <span class="float-right smmry-font"> ₹00.0 </span>
+          </div>
+          <div>
+            <span class=" smmry-font">Discount</span>
+            <span class="float-right smmry-font"> ₹00.0 </span>
+          </div>
+          <div>
+            <span class=" smmry-font">Delivery</span>
+            <span class="float-right smmry-font"> ₹00.0 </span>
+          </div>
+          <div class=" border-total">
+            <span class="font-weight-bold smmry-font font-size">Total</span>
+            <span class="float-right smmry-font font-size"> ₹00.0</span>
+          </div>
+          
+          
+          <div class=" promocode-div mb-3 mt-3">
+
+       <!--      <div class="form-check promocode-checkbtn  mb-3 ml-3">
+                <input type="checkbox" class="form-check-input mt-2" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Do you Have a Coupon ?</label>
+              </div> -->
+
+
+
+
+
+
+              <div class="custom-control custom-checkbox  promocode-checkbtn mb-3">
+                <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+              </div>
+
+                <div class="input-group  promo-section-hide">
+                  
+               
+            <!--  <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">%</span>
+            </div>
+            -->
+            <input type="text" class="form-control promocode-input" placeholder="HAVE A PROMO CODE?" aria-label="Username" aria-describedby="basic-addon1" autofocus>
+            <div class="input-group-append">
+              <input class="btn btn-color" type="submit" value="Submit">
+            </div>
+
+          </div>
+          <div class="checkout-btn">
+
+
+                <a class="checkout-link promocode-checkbtn" href="./guest.html" >
+  <button type="submit" class="input-group-text btn-checkout btn"> Guest Checkout        </button>
+                </a>   
+                <a class="checkout-link" href="./member.html" >
+  <button type="submit" class="input-group-text btn-checkout btn">Member Checkout       </button>
+                </a> 
+          </div>
+        </div>
+        
+        </div><!-- .Main Float-Right -->
+        </div><!-- .container-Main-Div -->
+        <!---================================Footer==================================================================--->
+        <div class="footer container-fluid">
+          
+        </div>
+        <!---================================Script-part==================================================================--->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+    </html>
